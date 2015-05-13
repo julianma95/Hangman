@@ -73,7 +73,6 @@ if user_start != "start"
 end
 
 draw_man(0)
-puts secret_word_array.inspect
 letters_guessed = [].sort
 def display_guess_progress(secret_word_array, letters_guessed)
 
